@@ -35,12 +35,12 @@ const MERCH = function(product, image, description, price) {
 MERCH.prototype.render = renderMerch;
 
 let tShirt = new MERCH('T-shirt', './images/shirt.jpg', 'Our Salmon Cookies t-shirts come in multiple sizes!', '$15.00');
-let pants = new MERCH('Pants', './images/pants.jpg', 'Our Salmon Cookies pants come in multiple sizes!', '$20.00');
-let socksMen = new MERCH('Socks - men', './images/socks-male.jpg', 'Our Salmon Cookies socks come in multiple sizes!', '$10.00');
-let socksFemale = new MERCH('Socks - female', './images/socks-female.jpg', 'Our Salmon Cookies t-shirts come in multiple sizes!', '$15.00');
-let jacket = new MERCH('Jacket', './images/jacket.jpg', 'Our Salmon Cookies pants come in multiple sizes!', '$20.00');
-let watch = new MERCH('Watch', './images/watch.jpg', 'Our Salmon Cookies socks come in multiple sizes!', '$10.00');
-let poster = new MERCH('Poster', './images/poster.jpg', 'Our Salmon Cookies socks come in multiple sizes!', '$10.00');
+let pants = new MERCH('Pants', './images/pants.jpg', 'Our Salmon Cookie pants comes in one whole color!', '$20.00');
+let socksMen = new MERCH('Socks - men', './images/socks-male.jpg', 'Walk around with comfort and style in our Salmon Cookie socks for men!', '$10.00');
+let socksFemale = new MERCH('Socks - female', './images/socks-female.jpg', 'Walk around with comfort and style in our Salmon Cookie socks for women!', '$15.00');
+let jacket = new MERCH('Jacket', './images/jacket.jpg', 'Our Salmon Cookie jackets will keep you warm!', '$20.00');
+let watch = new MERCH('Watch', './images/watch.jpg', 'Tell the time using our Salmon Cookie watch!', '$10.00');
+let poster = new MERCH('Poster', './images/poster.jpg', 'Swag out your bedroom with our new line of posters!', '$10.00');
 
 tShirt.render();
 pants.render();
